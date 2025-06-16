@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# 🍣 AFS-220 Capstone Project: Sushi Ordering App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This capstone marks the completion of a 24-month journey in software engineering. It integrates full-stack development, project management, testing, and deployment using modern tools.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📚 Course Overview
+**Course**: AFS-220 – Software Development & Capstone  
+**Focus Areas**: Python & Django, Docker, Testing, OOP, Data Structures, Project Management
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Sushi Ordering Web Application
 
-### `npm test`
+A full-stack sushi ordering app built with:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Backend**: Python + Django  
+- **Frontend**: Django Templates (HTML/CSS)  
+- **Database**: PostgreSQL  
+- **Deployment**: Docker
 
-### `npm run build`
+### ✅ Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Menu browsing and order selection  
+- Add/Edit/Remove sushi orders  
+- Display order summaries  
+- Live server demo via Docker  
+- Includes unit testing with Django framework
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧪 Testing
 
-### `npm run eject`
+- ✅ One or more Django test cases implemented  
+- ✅ Validated forms and views  
+- ✅ Leveraged Django’s built-in testing framework
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Dockerized environment using Docker Compose  
+- `.env` support for local and remote deployment  
+- Easily portable and scalable structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🖥️ Capstone Presentation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Grading Criteria Met:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ✅ Live demonstration during class  
+- ✅ GitHub repo submitted with all files  
+- ✅ Presented 5–10 PowerPoint slides  
+- ✅ Included test case(s)  
+- ✅ Project live on a running server
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💡 Key Takeaways
 
-### Analyzing the Bundle Size
+- Built a scalable full-stack app using Django  
+- Applied Agile PM principles with Jira  
+- Practiced containerization via Docker  
+- Reinforced Python OOP and data structures  
+- Strengthened knowledge of testing and deployment best practices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# 1. Clone the repository
+git clone https://github.com/stackmindlab/sushi-ordering-app.git
+cd sushi-ordering-app
 
-### Advanced Configuration
+# 2. Set up the virtual environment
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# 3. Install Python dependencies
+pip install -r requirements.txt
 
-### Deployment
+# 4. Run migrations
+python manage.py migrate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 5. Start the Django server
+python manage.py runserver
 
-### `npm run build` fails to minify
+⚙️ If Using React Frontend
+If you’re using a Create React App frontend in combination:
+# Start React App
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔗 Links
+🗂 GitHub Repo: stackmindlab/sushi-ordering-app
+
+🎓 Capstone presentation available upon request
+
